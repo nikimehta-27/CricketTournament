@@ -19,3 +19,6 @@ Note :
 
 NOTE :
 Currently as there is no database I have added only match for first phase of tournamnet and made changes into objects only.Once database is there we can complete all the matches required for tournamnet with minor changes.
+
+
+I have covered happy sceanrios for match between teams and the winner is been declared.If every input is entered correctly it will run and give result successfully.
