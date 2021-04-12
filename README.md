@@ -8,5 +8,14 @@ Note :
  4) After one match gets over the second match between other 2 teams starts.
  5) Winner of each match is been declare after each match
  
- Kindly choose proper option to start match and also for which team to choose for batting
- Enter proper runs(0,1,2,3,4 and 6) and for wicket enter -1 without pressing extra Enter.
+ --------------------------------------------------------------------------
+ There are few constraints that are currently not handled due to time constraint :
+ 
+ 1) If wicket goes more then 10 than application will throw exception.
+ 2) If proper option to start match and also for which team to choose for batting for that match is not selected then appplication will print a message and need to run the program again.
+ 3) If runs enter is not 0,1,2,3,4,or 6 then run for that ball get skipped with a message.
+ 4) Match is played statically for 20 balls and runs(0,1,2,3,4 or 6) for each ball needs to be entered and for wicket enter -1.
+ 5) If by mistake 2 time enter is clicked while entering run then application will throw exception for that team and start match for another team.
+
+NOTE :
+Currently as there is no database I have added only match for first phase of tournamnet and made changes into objects only.Once database is there we can complete all the matches required for tournamnet with minor changes.
